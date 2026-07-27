@@ -1,7 +1,7 @@
 <template>
     <div class="container">
         <div v-for="item in items" :key="item.id" class="card">
-            <img :src="item.image" :alt="item.name" class="card-image" />
+            <img loading="lazy" :src="item.image" :alt="item.name" class="card-image" />
             <div class="card-name">{{ item.name }}</div>
             <button @click="favorite(item)" class="card-btn">Favorite</button>
         </div>
