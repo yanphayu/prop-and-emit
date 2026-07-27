@@ -60,11 +60,8 @@ function favorite(item){
     cursor: pointer;
 }
 
-.card-btn:hover {
+.card-btn:active {
     background-color: var(--accent-hover);
 }
 
-.card-btn:active {
-    background-color: var(--accent-active);
-}
 </style>
